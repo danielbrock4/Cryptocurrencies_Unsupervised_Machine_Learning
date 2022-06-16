@@ -3,7 +3,7 @@
 ## Resources
 
 - **Data Source:** 
-  - [crypto_data.csv](crypto_data/crypto_data.csv)
+  - [crypto_data.csv](crypto_data.csv)
 - **Software:** Python, Pandas, Hvplot, Plotly, Sklearn
 
 ## Challenge Project Overview 
