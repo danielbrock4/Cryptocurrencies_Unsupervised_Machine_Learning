@@ -20,7 +20,7 @@ I began by preprocessing the dataset provided so that the machine learning algor
 
 Next, using Principal Component Analysis (PCA), I reduced the dimension of 98 scaled columns to only three principal component columns.
 
-![Fig1]/(images/fig1.jpeg)
+![Image]/(images/fig1.jpeg)
 
 #### Step 3: Clustering Cryptocurrencies Using K-Means
 
