@@ -20,27 +20,27 @@ I began by preprocessing the dataset provided so that the machine learning algor
 
 Next, using Principal Component Analysis (PCA), I reduced the dimension of 98 scaled columns to only three principal component columns.
 
-![Fig1]/(images/fig1.jpeg)
+![Fig1]/(images/fig1.jpg)
 
 #### Step 3: Clustering Cryptocurrencies Using K-Means
 
 To see how many clusters (k) I could divide the cryptos into, I created an elbow curve to identify the best number of clusters. 
 
-![Fig2]/(images/fig2.jpeg)
+![Fig2]/(images/fig2.jpg)
 
 The ideal amount of clusters is where the line graph starts to take a significant, noticeable pivot on the line graph. So, I then proceeded with the KMeans analysis to fit the PCA dataframe and predict the clustering. As it can be seen, the optimal result was 4 clusters. The product was this clustered_df with a 'Class' column showing the predictions to which group it belonged.
 
-![Fig3]/(images/fig3.jpeg)
+![Fig3]/(images/fig3.jpg)
 
 #### Step 4: Visualizing Cryptocurrencies Results
 
 To better interpret the data, I created visuals to understand the results better. The 3D scatter plot located each clustered crypto concerning the three principal components assembled on the PCA. As seen, there are three major groups and one outlier (which can be seen in yellow).
 
-![Fig4]/(images/fig4.jpeg)
+![Fig4]/(images/fig4.jpg)
 
 There are two noticeable outliers when plotting the clustered cryptos by total supply and mined coins. The first outlier, BitTorrent Crypto, has an extensive supply of coins and mined coins. While the second outlier, BitTorrent Crypto, has an unusually vast supply of total coins.
 
-![Fig5]/(images/fig5.jpeg)
+![Fig5]/(images/fig5.jpg)
 
 
 ## Challange Project Summary
